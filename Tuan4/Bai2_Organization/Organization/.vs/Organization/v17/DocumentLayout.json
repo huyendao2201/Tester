@@ -1,0 +1,297 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Study\\HCMUNRE\\Tester\\Tuan4\\Bai2_Organization\\Organization\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{209D5E7B-D858-48D7-B1CD-879D3116228D}|OrganizationApp\\OrganizationApp.csproj|c:\\study\\hcmunre\\tester\\tuan4\\bai2_organization\\organization\\organizationapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{209D5E7B-D858-48D7-B1CD-879D3116228D}|OrganizationApp\\OrganizationApp.csproj|solutionrelative:organizationapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4B89F9E-457A-4890-A7CE-0B400408D413}|OrganizationApp.Tests\\OrganizationApp.Tests.csproj|c:\\study\\hcmunre\\tester\\tuan4\\bai2_organization\\organization\\organizationapp.tests\\organizationservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4B89F9E-457A-4890-A7CE-0B400408D413}|OrganizationApp.Tests\\OrganizationApp.Tests.csproj|solutionrelative:organizationapp.tests\\organizationservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{209D5E7B-D858-48D7-B1CD-879D3116228D}|OrganizationApp\\OrganizationApp.csproj|c:\\study\\hcmunre\\tester\\tuan4\\bai2_organization\\organization\\organizationapp\\organizationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{209D5E7B-D858-48D7-B1CD-879D3116228D}|OrganizationApp\\OrganizationApp.csproj|solutionrelative:organizationapp\\organizationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{209D5E7B-D858-48D7-B1CD-879D3116228D}|OrganizationApp\\OrganizationApp.csproj|c:\\study\\hcmunre\\tester\\tuan4\\bai2_organization\\organization\\organizationapp\\directorform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{209D5E7B-D858-48D7-B1CD-879D3116228D}|OrganizationApp\\OrganizationApp.csproj|solutionrelative:organizationapp\\directorform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{209D5E7B-D858-48D7-B1CD-879D3116228D}|OrganizationApp\\OrganizationApp.csproj|c:\\study\\hcmunre\\tester\\tuan4\\bai2_organization\\organization\\organizationapp\\organizationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{209D5E7B-D858-48D7-B1CD-879D3116228D}|OrganizationApp\\OrganizationApp.csproj|solutionrelative:organizationapp\\organizationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{209D5E7B-D858-48D7-B1CD-879D3116228D}|OrganizationApp\\OrganizationApp.csproj|c:\\study\\hcmunre\\tester\\tuan4\\bai2_organization\\organization\\organizationapp\\directorform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{209D5E7B-D858-48D7-B1CD-879D3116228D}|OrganizationApp\\OrganizationApp.csproj|solutionrelative:organizationapp\\directorform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{209D5E7B-D858-48D7-B1CD-879D3116228D}|OrganizationApp\\OrganizationApp.csproj|c:\\study\\hcmunre\\tester\\tuan4\\bai2_organization\\organization\\organizationapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{209D5E7B-D858-48D7-B1CD-879D3116228D}|OrganizationApp\\OrganizationApp.csproj|solutionrelative:organizationapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{209D5E7B-D858-48D7-B1CD-879D3116228D}|OrganizationApp\\OrganizationApp.csproj|c:\\study\\hcmunre\\tester\\tuan4\\bai2_organization\\organization\\organizationapp\\organizationform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{209D5E7B-D858-48D7-B1CD-879D3116228D}|OrganizationApp\\OrganizationApp.csproj|solutionrelative:organizationapp\\organizationform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{209D5E7B-D858-48D7-B1CD-879D3116228D}|OrganizationApp\\OrganizationApp.csproj|c:\\study\\hcmunre\\tester\\tuan4\\bai2_organization\\organization\\organizationapp\\directorform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{209D5E7B-D858-48D7-B1CD-879D3116228D}|OrganizationApp\\OrganizationApp.csproj|solutionrelative:organizationapp\\directorform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4179BB10-6864-4118-A06E-687F6C22A6CE}|OrganizationApp.Core\\OrganizationApp.Core\\OrganizationApp.Core.csproj|c:\\study\\hcmunre\\tester\\tuan4\\bai2_organization\\organization\\organizationapp.core\\organizationapp.core\\services\\organizationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4179BB10-6864-4118-A06E-687F6C22A6CE}|OrganizationApp.Core\\OrganizationApp.Core\\OrganizationApp.Core.csproj|solutionrelative:organizationapp.core\\organizationapp.core\\services\\organizationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4179BB10-6864-4118-A06E-687F6C22A6CE}|OrganizationApp.Core\\OrganizationApp.Core\\OrganizationApp.Core.csproj|c:\\study\\hcmunre\\tester\\tuan4\\bai2_organization\\organization\\organizationapp.core\\organizationapp.core\\data\\organizationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4179BB10-6864-4118-A06E-687F6C22A6CE}|OrganizationApp.Core\\OrganizationApp.Core\\OrganizationApp.Core.csproj|solutionrelative:organizationapp.core\\organizationapp.core\\data\\organizationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4179BB10-6864-4118-A06E-687F6C22A6CE}|OrganizationApp.Core\\OrganizationApp.Core\\OrganizationApp.Core.csproj|c:\\study\\hcmunre\\tester\\tuan4\\bai2_organization\\organization\\organizationapp.core\\organizationapp.core\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4179BB10-6864-4118-A06E-687F6C22A6CE}|OrganizationApp.Core\\OrganizationApp.Core\\OrganizationApp.Core.csproj|solutionrelative:organizationapp.core\\organizationapp.core\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4179BB10-6864-4118-A06E-687F6C22A6CE}|OrganizationApp.Core\\OrganizationApp.Core\\OrganizationApp.Core.csproj|c:\\study\\hcmunre\\tester\\tuan4\\bai2_organization\\organization\\organizationapp.core\\organizationapp.core\\validation\\organizationvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4179BB10-6864-4118-A06E-687F6C22A6CE}|OrganizationApp.Core\\OrganizationApp.Core\\OrganizationApp.Core.csproj|solutionrelative:organizationapp.core\\organizationapp.core\\validation\\organizationvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4179BB10-6864-4118-A06E-687F6C22A6CE}|OrganizationApp.Core\\OrganizationApp.Core\\OrganizationApp.Core.csproj|c:\\study\\hcmunre\\tester\\tuan4\\bai2_organization\\organization\\organizationapp.core\\organizationapp.core\\validation\\validationerror.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4179BB10-6864-4118-A06E-687F6C22A6CE}|OrganizationApp.Core\\OrganizationApp.Core\\OrganizationApp.Core.csproj|solutionrelative:organizationapp.core\\organizationapp.core\\validation\\validationerror.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4179BB10-6864-4118-A06E-687F6C22A6CE}|OrganizationApp.Core\\OrganizationApp.Core\\OrganizationApp.Core.csproj|c:\\study\\hcmunre\\tester\\tuan4\\bai2_organization\\organization\\organizationapp.core\\organizationapp.core\\models\\organization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4179BB10-6864-4118-A06E-687F6C22A6CE}|OrganizationApp.Core\\OrganizationApp.Core\\OrganizationApp.Core.csproj|solutionrelative:organizationapp.core\\organizationapp.core\\models\\organization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4B89F9E-457A-4890-A7CE-0B400408D413}|OrganizationApp.Tests\\OrganizationApp.Tests.csproj|c:\\study\\hcmunre\\tester\\tuan4\\bai2_organization\\organization\\organizationapp.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4B89F9E-457A-4890-A7CE-0B400408D413}|OrganizationApp.Tests\\OrganizationApp.Tests.csproj|solutionrelative:organizationapp.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Study\\HCMUNRE\\Tester\\Tuan4\\Bai2_Organization\\Organization\\OrganizationApp\\Program.cs",
+              "RelativeDocumentMoniker": "OrganizationApp\\Program.cs",
+              "ToolTip": "C:\\Study\\HCMUNRE\\Tester\\Tuan4\\Bai2_Organization\\Organization\\OrganizationApp\\Program.cs",
+              "RelativeToolTip": "OrganizationApp\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T08:03:10.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrganizationServiceTests.cs",
+              "DocumentMoniker": "C:\\Study\\HCMUNRE\\Tester\\Tuan4\\Bai2_Organization\\Organization\\OrganizationApp.Tests\\OrganizationServiceTests.cs",
+              "RelativeDocumentMoniker": "OrganizationApp.Tests\\OrganizationServiceTests.cs",
+              "ToolTip": "C:\\Study\\HCMUNRE\\Tester\\Tuan4\\Bai2_Organization\\Organization\\OrganizationApp.Tests\\OrganizationServiceTests.cs",
+              "RelativeToolTip": "OrganizationApp.Tests\\OrganizationServiceTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T08:02:51.461Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DirectorForm.cs",
+              "DocumentMoniker": "C:\\Study\\HCMUNRE\\Tester\\Tuan4\\Bai2_Organization\\Organization\\OrganizationApp\\DirectorForm.cs",
+              "RelativeDocumentMoniker": "OrganizationApp\\DirectorForm.cs",
+              "ToolTip": "C:\\Study\\HCMUNRE\\Tester\\Tuan4\\Bai2_Organization\\Organization\\OrganizationApp\\DirectorForm.cs",
+              "RelativeToolTip": "OrganizationApp\\DirectorForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T08:02:07.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrganizationForm.cs",
+              "DocumentMoniker": "C:\\Study\\HCMUNRE\\Tester\\Tuan4\\Bai2_Organization\\Organization\\OrganizationApp\\OrganizationForm.cs",
+              "RelativeDocumentMoniker": "OrganizationApp\\OrganizationForm.cs",
+              "ToolTip": "C:\\Study\\HCMUNRE\\Tester\\Tuan4\\Bai2_Organization\\Organization\\OrganizationApp\\OrganizationForm.cs",
+              "RelativeToolTip": "OrganizationApp\\OrganizationForm.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAgwFAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T08:01:04.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DirectorForm.Designer.cs",
+              "DocumentMoniker": "C:\\Study\\HCMUNRE\\Tester\\Tuan4\\Bai2_Organization\\Organization\\OrganizationApp\\DirectorForm.Designer.cs",
+              "RelativeDocumentMoniker": "OrganizationApp\\DirectorForm.Designer.cs",
+              "ToolTip": "C:\\Study\\HCMUNRE\\Tester\\Tuan4\\Bai2_Organization\\Organization\\OrganizationApp\\DirectorForm.Designer.cs",
+              "RelativeToolTip": "OrganizationApp\\DirectorForm.Designer.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAuwB4AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T08:00:02.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DirectorForm.cs [Design]",
+              "DocumentMoniker": "C:\\Study\\HCMUNRE\\Tester\\Tuan4\\Bai2_Organization\\Organization\\OrganizationApp\\DirectorForm.cs",
+              "RelativeDocumentMoniker": "OrganizationApp\\DirectorForm.cs",
+              "ToolTip": "C:\\Study\\HCMUNRE\\Tester\\Tuan4\\Bai2_Organization\\Organization\\OrganizationApp\\DirectorForm.cs [Design]",
+              "RelativeToolTip": "OrganizationApp\\DirectorForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T07:59:51.465Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OrganizationForm.Designer.cs",
+              "DocumentMoniker": "C:\\Study\\HCMUNRE\\Tester\\Tuan4\\Bai2_Organization\\Organization\\OrganizationApp\\OrganizationForm.Designer.cs",
+              "RelativeDocumentMoniker": "OrganizationApp\\OrganizationForm.Designer.cs",
+              "ToolTip": "C:\\Study\\HCMUNRE\\Tester\\Tuan4\\Bai2_Organization\\Organization\\OrganizationApp\\OrganizationForm.Designer.cs",
+              "RelativeToolTip": "OrganizationApp\\OrganizationForm.Designer.cs",
+              "ViewState": "AgIAAJMAAAAAAAAAAAAuwMIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T07:59:30.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OrganizationForm.cs [Design]",
+              "DocumentMoniker": "C:\\Study\\HCMUNRE\\Tester\\Tuan4\\Bai2_Organization\\Organization\\OrganizationApp\\OrganizationForm.cs",
+              "RelativeDocumentMoniker": "OrganizationApp\\OrganizationForm.cs",
+              "ToolTip": "C:\\Study\\HCMUNRE\\Tester\\Tuan4\\Bai2_Organization\\Organization\\OrganizationApp\\OrganizationForm.cs [Design]",
+              "RelativeToolTip": "OrganizationApp\\OrganizationForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T07:58:48.176Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Study\\HCMUNRE\\Tester\\Tuan4\\Bai2_Organization\\Organization\\OrganizationApp\\Form1.cs",
+              "RelativeDocumentMoniker": "OrganizationApp\\Form1.cs",
+              "ToolTip": "C:\\Study\\HCMUNRE\\Tester\\Tuan4\\Bai2_Organization\\Organization\\OrganizationApp\\Form1.cs [Design]",
+              "RelativeToolTip": "OrganizationApp\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T07:49:58.647Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "OrganizationService.cs",
+              "DocumentMoniker": "C:\\Study\\HCMUNRE\\Tester\\Tuan4\\Bai2_Organization\\Organization\\OrganizationApp.Core\\OrganizationApp.Core\\Services\\OrganizationService.cs",
+              "RelativeDocumentMoniker": "OrganizationApp.Core\\OrganizationApp.Core\\Services\\OrganizationService.cs",
+              "ToolTip": "C:\\Study\\HCMUNRE\\Tester\\Tuan4\\Bai2_Organization\\Organization\\OrganizationApp.Core\\OrganizationApp.Core\\Services\\OrganizationService.cs",
+              "RelativeToolTip": "OrganizationApp.Core\\OrganizationApp.Core\\Services\\OrganizationService.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAuwDIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T07:57:50.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "OrganizationRepository.cs",
+              "DocumentMoniker": "C:\\Study\\HCMUNRE\\Tester\\Tuan4\\Bai2_Organization\\Organization\\OrganizationApp.Core\\OrganizationApp.Core\\Data\\OrganizationRepository.cs",
+              "RelativeDocumentMoniker": "OrganizationApp.Core\\OrganizationApp.Core\\Data\\OrganizationRepository.cs",
+              "ToolTip": "C:\\Study\\HCMUNRE\\Tester\\Tuan4\\Bai2_Organization\\Organization\\OrganizationApp.Core\\OrganizationApp.Core\\Data\\OrganizationRepository.cs",
+              "RelativeToolTip": "OrganizationApp.Core\\OrganizationApp.Core\\Data\\OrganizationRepository.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAuwFkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T07:57:22.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DbInitializer.cs",
+              "DocumentMoniker": "C:\\Study\\HCMUNRE\\Tester\\Tuan4\\Bai2_Organization\\Organization\\OrganizationApp.Core\\OrganizationApp.Core\\Data\\DbInitializer.cs",
+              "RelativeDocumentMoniker": "OrganizationApp.Core\\OrganizationApp.Core\\Data\\DbInitializer.cs",
+              "ToolTip": "C:\\Study\\HCMUNRE\\Tester\\Tuan4\\Bai2_Organization\\Organization\\OrganizationApp.Core\\OrganizationApp.Core\\Data\\DbInitializer.cs",
+              "RelativeToolTip": "OrganizationApp.Core\\OrganizationApp.Core\\Data\\DbInitializer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T07:57:07.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "OrganizationValidator.cs",
+              "DocumentMoniker": "C:\\Study\\HCMUNRE\\Tester\\Tuan4\\Bai2_Organization\\Organization\\OrganizationApp.Core\\OrganizationApp.Core\\Validation\\OrganizationValidator.cs",
+              "RelativeDocumentMoniker": "OrganizationApp.Core\\OrganizationApp.Core\\Validation\\OrganizationValidator.cs",
+              "ToolTip": "C:\\Study\\HCMUNRE\\Tester\\Tuan4\\Bai2_Organization\\Organization\\OrganizationApp.Core\\OrganizationApp.Core\\Validation\\OrganizationValidator.cs",
+              "RelativeToolTip": "OrganizationApp.Core\\OrganizationApp.Core\\Validation\\OrganizationValidator.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAuwCkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T07:56:49.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ValidationError.cs",
+              "DocumentMoniker": "C:\\Study\\HCMUNRE\\Tester\\Tuan4\\Bai2_Organization\\Organization\\OrganizationApp.Core\\OrganizationApp.Core\\Validation\\ValidationError.cs",
+              "RelativeDocumentMoniker": "OrganizationApp.Core\\OrganizationApp.Core\\Validation\\ValidationError.cs",
+              "ToolTip": "C:\\Study\\HCMUNRE\\Tester\\Tuan4\\Bai2_Organization\\Organization\\OrganizationApp.Core\\OrganizationApp.Core\\Validation\\ValidationError.cs",
+              "RelativeToolTip": "OrganizationApp.Core\\OrganizationApp.Core\\Validation\\ValidationError.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T07:56:32.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Organization.cs",
+              "DocumentMoniker": "C:\\Study\\HCMUNRE\\Tester\\Tuan4\\Bai2_Organization\\Organization\\OrganizationApp.Core\\OrganizationApp.Core\\Models\\Organization.cs",
+              "RelativeDocumentMoniker": "OrganizationApp.Core\\OrganizationApp.Core\\Models\\Organization.cs",
+              "ToolTip": "C:\\Study\\HCMUNRE\\Tester\\Tuan4\\Bai2_Organization\\Organization\\OrganizationApp.Core\\OrganizationApp.Core\\Models\\Organization.cs",
+              "RelativeToolTip": "OrganizationApp.Core\\OrganizationApp.Core\\Models\\Organization.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T07:56:16.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Study\\HCMUNRE\\Tester\\Tuan4\\Bai2_Organization\\Organization\\OrganizationApp.Tests\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "OrganizationApp.Tests\\UnitTest1.cs",
+              "ToolTip": "C:\\Study\\HCMUNRE\\Tester\\Tuan4\\Bai2_Organization\\Organization\\OrganizationApp.Tests\\UnitTest1.cs",
+              "RelativeToolTip": "OrganizationApp.Tests\\UnitTest1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T07:53:38.775Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+C:\Study\HCMUNRE\Tester\Tuan4\Bai2_Organization\Organization\OrganizationApp\bin\Debug\OrganizationApp.exe.config
+C:\Study\HCMUNRE\Tester\Tuan4\Bai2_Organization\Organization\OrganizationApp\bin\Debug\OrganizationApp.exe
+C:\Study\HCMUNRE\Tester\Tuan4\Bai2_Organization\Organization\OrganizationApp\bin\Debug\OrganizationApp.pdb
+C:\Study\HCMUNRE\Tester\Tuan4\Bai2_Organization\Organization\OrganizationApp\obj\Debug\OrganizationApp.csproj.AssemblyReference.cache
+C:\Study\HCMUNRE\Tester\Tuan4\Bai2_Organization\Organization\OrganizationApp\obj\Debug\OrganizationApp.Properties.Resources.resources
+C:\Study\HCMUNRE\Tester\Tuan4\Bai2_Organization\Organization\OrganizationApp\obj\Debug\OrganizationApp.csproj.GenerateResource.cache
+C:\Study\HCMUNRE\Tester\Tuan4\Bai2_Organization\Organization\OrganizationApp\obj\Debug\OrganizationApp.csproj.CoreCompileInputs.cache
+C:\Study\HCMUNRE\Tester\Tuan4\Bai2_Organization\Organization\OrganizationApp\obj\Debug\OrganizationApp.exe
+C:\Study\HCMUNRE\Tester\Tuan4\Bai2_Organization\Organization\OrganizationApp\obj\Debug\OrganizationApp.pdb
+C:\Study\HCMUNRE\Tester\Tuan4\Bai2_Organization\Organization\OrganizationApp\bin\Debug\OrganizationApp.Core.dll
+C:\Study\HCMUNRE\Tester\Tuan4\Bai2_Organization\Organization\OrganizationApp\bin\Debug\System.Data.SQLite.dll
+C:\Study\HCMUNRE\Tester\Tuan4\Bai2_Organization\Organization\OrganizationApp\bin\Debug\OrganizationApp.Core.pdb
+C:\Study\HCMUNRE\Tester\Tuan4\Bai2_Organization\Organization\OrganizationApp\bin\Debug\System.Data.SQLite.xml
+C:\Study\HCMUNRE\Tester\Tuan4\Bai2_Organization\Organization\OrganizationApp\obj\Debug\OrganizationApp.exe.config
+C:\Study\HCMUNRE\Tester\Tuan4\Bai2_Organization\Organization\OrganizationApp\obj\Debug\Organiza.1740CDC5.Up2Date
