@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="vi" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Đăng ký tài khoản - ShopVN.vn</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+<body class="bg-light">
+<div class="container py-4" style="max-width: 760px;">
+    <div class="card shadow-sm">
+        <div class="card-body p-4">
+            <h3 class="mb-3">Form Đăng Ký Tài Khoản – ShopVN.vn</h3>
+
+            <form th:action="@{/register}" th:object="${form}" method="post" id="registerForm" novalidate>
+
+                <div class="mb-3">
+                    <label class="form-label">Họ và tên (*)</label>
+                    <input class="form-control" th:field="*{fullName}" placeholder="VD: Nguyễn Văn A" required>
+                    <div class="text-danger small" th:if="${#fields.hasErrors('fullName')}" th:errors="*{fullName}"></div>
+                    <div class="form-text">Chỉ chữ cái và dấu cách, dài 2–50 ký tự.</div>
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Tên đăng nhập (*)</label>
+                    <input class="form-control" th:field="*{username}" placeholder="vd: nguyenvana_01" required>
+                    <div class="text-danger small" th:if="${#fields.hasErrors('username')}" th:errors="*{username}"></div>
+                    <div class="form-text">Chữ thường/số/_; bắt đầu bằng chữ; dài 5–20; phải duy nhất.</div>
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Email (*)</label>
+                    <input class="form-control" th:field="*{email}" placeholder="vd: a@gmail.com" required>
+                    <div class="text-danger small" th:if="${#fields.hasErrors('email')}" th:errors="*{email}"></div>
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Số điện thoại (*)</label>
+                    <input class="form-control" th:field="*{phone}" placeholder="0987654321" required>
+                    <div class="text-danger small" th:if="${#fields.hasErrors('phone')}" th:errors="*{phone}"></div>
+                    <div class="form-text">Số VN: bắt đầu 0, gồm 10 chữ số liên tiếp.</div>
+                </div>
+
+                <div class="row g-3">
+                    <div class="col-md-6">
+                        <label class="form-label">Mật khẩu (*)</label>
+                        <input type="password" class="form-control" th:field="*{password}" required>
+                        <div class="text-danger small" th:if="${#fields.hasErrors('password')}" th:errors="*{password}"></div>
+                        <div class="form-text">8–32, có hoa, thường, số, ký tự đặc biệt.</div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <label class="form-label">Xác nhận mật khẩu (*)</label>
+                        <input type="password" class="form-control" th:field="*{confirmPassword}" required>
+                        <div class="text-danger small" th:if="${#fields.hasErrors('confirmPassword')}" th:errors="*{confirmPassword}"></div>
+                    </div>
+                </div>
+
+                <hr class="my-4">
+
+                <div class="mb-3">
+                    <label class="form-label">Ngày sinh</label>
+                    <input class="form-control" th:field="*{dob}" placeholder="dd/mm/yyyy">
+                    <div class="text-danger small" th:if="${#fields.hasErrors('dob')}" th:errors="*{dob}"></div>
+                    <div class="form-text">Không bắt buộc. Từ 16 tuổi đến dưới 100 tuổi (tính lúc đăng ký).</div>
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Giới tính</label>
+                    <div class="d-flex gap-3">
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="gender" value="MALE"
+                                   th:checked="${form.gender} == 'MALE'">
+                            <label class="form-check-label">Nam</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="gender" value="FEMALE"
+                                   th:checked="${form.gender} == 'FEMALE'">
+                            <label class="form-check-label">Nữ</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="gender" value="NA"
+                                   th:checked="${form.gender} == 'NA'">
+                            <label class="form-check-label">Không muốn tiết lộ</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Mã giới thiệu</label>
+                    <input class="form-control" th:field="*{referralCode}" placeholder="VD: ABCD1234">
+                    <div class="text-danger small" th:if="${#fields.hasErrors('referralCode')}" th:errors="*{referralCode}"></div>
+                    <div class="form-text">Không bắt buộc. 8 ký tự chữ hoa và số. Hệ thống kiểm tra mã tồn tại trong CSDL.</div>
+                </div>
+
+                <div class="mb-3">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" th:field="*{agreeTerms}" id="agreeTerms" required>
+                        <label class="form-check-label" for="agreeTerms">
+                            Đồng ý Điều khoản (*) —
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#termsModal">Xem Điều khoản</a>
+                        </label>
+                    </div>
+                    <div class="text-danger small" th:if="${#fields.hasErrors('agreeTerms')}" th:errors="*{agreeTerms}"></div>
+                </div>
+
+                <div class="d-flex gap-2">
+                    <button type="submit" class="btn btn-primary" id="btnRegister" disabled>Đăng ký</button>
+                    <a class="btn btn-outline-secondary" th:href="@{/login}">Đăng nhập</a>
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+    <div class="text-muted small mt-3">
+        H2 console: <code>/h2</code> (JDBC URL: <code>jdbc:h2:mem:shopvn</code>, user: <code>sa</code>, pass: rỗng)
+    </div>
+</div>
+
+<!-- Modal Terms -->
+<div class="modal fade" id="termsModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-scrollable">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Điều khoản sử dụng</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p><strong>1)</strong> Bạn đồng ý cung cấp thông tin chính xác.</p>
+                <p><strong>2)</strong> ShopVN cam kết bảo mật thông tin theo chính sách.</p>
+                <p><strong>3)</strong> Không sử dụng hệ thống cho mục đích vi phạm pháp luật.</p>
+                <p class="mb-0"><em>(Nội dung demo — bạn thay bằng điều khoản thật.)</em></p>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" data-bs-dismiss="modal" type="button">Đóng</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script th:src="@{/js/register.js}"></script>
+</body>
+</html>
