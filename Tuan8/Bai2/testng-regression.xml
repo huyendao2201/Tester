@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<!--
+    testng-regression.xml - Chạy nhóm REGRESSION
+    ===============================================
+    Thực thi TẤT CẢ tests được gắn nhóm "regression" (bao gồm cả smoke):
+      - LoginTest   : testLoginSuccess, testLoginWrongPassword,
+                      testLoginEmptyUsername, testLoginLockedUser  (4 tests)
+      - CartTest    : testAddItemToCart, testViewCartWithItem,
+                      testRemoveItemFromCart, testContinueShopping (4 tests)
+      - CheckoutTest: testCheckoutPageLoads, testCheckoutEmptyInfo,
+                      testCheckoutComplete, testBackHomeAfterCheckout (4 tests)
+    Tổng expectation: 12 tests được chạy
+-->
+<suite name="SauceDemoTestSuite - REGRESSION" verbose="2">
+
+    <groups>
+        <run>
+            <!-- Chạy tất cả tests trong nhóm regression -->
+            <include name="regression"/>
+        </run>
+    </groups>
+
+    <test name="Login Tests">
+        <classes>
+            <class name="dtm.LoginTest"/>
+        </classes>
+    </test>
+
+    <test name="Cart Tests">
+        <classes>
+            <class name="dtm.CartTest"/>
+        </classes>
+    </test>
+
+    <test name="Checkout Tests">
+        <classes>
+            <class name="dtm.CheckoutTest"/>
+        </classes>
+    </test>
+
+</suite>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<!--
+    testng.xml - Chạy nhóm SMOKE
+    ==============================
+    Chỉ thực thi các test được gắn nhóm "smoke":
+      - LoginTest  : testLoginSuccess        (1 test)
+      - CartTest   : testAddItemToCart       (1 test)
+      - CheckoutTest: testCheckoutPageLoads  (1 test)
+    Tổng expectation: 3 tests được chạy
+-->
+<suite name="SauceDemoTestSuite - SMOKE" verbose="2">
+
+    <groups>
+        <run>
+            <!-- Chỉ chạy nhóm smoke -->
+            <include name="smoke"/>
+        </run>
+    </groups>
+
+    <test name="Login Tests">
+        <classes>
+            <class name="dtm.LoginTest"/>
+        </classes>
+    </test>
+
+    <test name="Cart Tests">
+        <classes>
+            <class name="dtm.CartTest"/>
+        </classes>
+    </test>
+
+    <test name="Checkout Tests">
+        <classes>
+            <class name="dtm.CheckoutTest"/>
+        </classes>
+    </test>
+
+</suite>
