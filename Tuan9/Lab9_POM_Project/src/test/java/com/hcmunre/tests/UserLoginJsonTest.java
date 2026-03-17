@@ -14,14 +14,9 @@ import org.testng.annotations.Test;
 import java.lang.reflect.Method;
 import java.util.List;
 
-public class UserLoginJsonTest extends BaseTest implements ITest {
+public class UserLoginJsonTest extends BaseTest {
     private String testName = "";
     private final String jsonPath = "src/test/resources/users.json";
-
-    @Override
-    public String getTestName() {
-        return testName;
-    }
 
     @BeforeMethod
     public void setupTest(Method method, Object[] testData) {

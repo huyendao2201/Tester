@@ -18,6 +18,9 @@ public class CartPage extends BasePage {
     @FindBy(id = "checkout")
     private WebElement checkoutButton;
 
+    @FindBy(id = "continue-shopping")
+    private WebElement continueShoppingButton;
+
     @FindBy(className = "inventory_item_name")
     private List<WebElement> itemNames;
 
@@ -42,6 +45,11 @@ public class CartPage extends BasePage {
         // Nên tôi sẽ giữ void hoặc trả về trang hiện tại tùy ý.
         // Theo chuẩn Lab, ta giả định có thể trả về CheckoutPage hoặc thực hiện action.
         checkoutButton.click();
+    }
+
+    public InventoryPage continueShopping() {
+        continueShoppingButton.click();
+        return new InventoryPage(driver);
     }
 
     public List<String> getItemNames() {

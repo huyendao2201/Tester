@@ -1,6 +1,11 @@
 com\hcmunre\pages\InventoryPage.class
 com\hcmunre\utils\ExcelGenerator.class
+com\hcmunre\utils\JsonReader.class
 com\hcmunre\utils\ExcelReader.class
 com\hcmunre\pages\LoginPage.class
+com\hcmunre\utils\TestDataFactory.class
+com\hcmunre\models\UserData.class
+com\hcmunre\utils\ConfigReader.class
+com\hcmunre\utils\JsonReader$1.class
 com\hcmunre\utils\ExcelReader$1.class
 com\hcmunre\pages\CartPage.class

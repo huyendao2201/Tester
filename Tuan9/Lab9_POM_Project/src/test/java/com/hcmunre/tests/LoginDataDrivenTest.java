@@ -12,15 +12,10 @@ import org.testng.annotations.Test;
 
 import java.lang.reflect.Method;
 
-public class LoginDataDrivenTest extends BaseTest implements ITest {
+public class LoginDataDrivenTest extends BaseTest {
 
     private String testName = "";
     private final String excelPath = "src/test/resources/login_data.xlsx";
-
-    @Override
-    public String getTestName() {
-        return testName;
-    }
 
     @BeforeMethod
     public void setupTest(Method method, Object[] testData) {

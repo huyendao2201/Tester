@@ -2,9 +2,6 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="SauceDemo Test Suite">
     
-    <listeners>
-        <listener class-name="com.hcmunre.utils.RetryListener" />
-    </listeners>
 
     <!-- Group "smoke" chỉ chạy SmokeCases -->
     <test name="Smoke Tests">
@@ -28,6 +25,13 @@
         </groups>
         <classes>
             <class name="com.hcmunre.tests.LoginDataDrivenTest" />
+            <class name="com.hcmunre.tests.RefactoredClassicTest" />
+        </classes>
+    </test>
+
+    <test name="Lab Refactor">
+        <classes>
+            <class name="com.hcmunre.tests.RefactoredClassicTest" />
         </classes>
     </test>
 
