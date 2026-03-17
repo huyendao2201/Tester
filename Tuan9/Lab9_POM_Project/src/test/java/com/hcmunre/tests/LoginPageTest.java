@@ -1,6 +1,6 @@
 package com.hcmunre.tests;
 
-import com.hcmunre.common.BaseTest;
+import com.hcmunre.base.BaseTest;
 import com.hcmunre.pages.BasePage;
 import org.openqa.selenium.By;
 import org.testng.Assert;

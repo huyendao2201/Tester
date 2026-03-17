@@ -1,4 +1,4 @@
-package com.hcmunre.utils;
+package com.hcmunre.config;
 
 import java.io.FileInputStream;
 import java.io.IOException;

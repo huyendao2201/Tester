@@ -1,4 +1,6 @@
-package com.hcmunre.common;
+package com.hcmunre.base;
+
+import com.hcmunre.config.ConfigReader;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
@@ -24,7 +26,7 @@ public class BaseTest {
         driver = new ChromeDriver(options);
 
         // Đọc timeout từ config
-        int timeout = com.hcmunre.utils.ConfigReader.getInstance().getIntProperty("explicit.wait");
+        int timeout = ConfigReader.getInstance().getIntProperty("explicit.wait");
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(timeout / 2)); // Implicit wait bằng nửa Explicit
     }
 

@@ -1,10 +1,10 @@
 package com.hcmunre.tests;
 
-import com.hcmunre.common.BaseTest;
+import com.hcmunre.base.BaseTest;
 import com.hcmunre.pages.CartPage;
 import com.hcmunre.pages.InventoryPage;
 import com.hcmunre.pages.LoginPage;
-import com.hcmunre.utils.ConfigReader;
+import com.hcmunre.config.ConfigReader;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;

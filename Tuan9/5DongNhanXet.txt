@@ -1,0 +1,5 @@
+1.Tách biệt hoàn toàn: POM tách rời mã kịch bản kiểm thử (Test Logic) và các thành phần giao diện (UI Locators), giúp cấu trúc dự án rõ ràng và chuyên nghiệp hơn.
+2.Dễ dàng bảo trì: Khi giao diện thay đổi, bạn chỉ cần cập nhật locator tại một vị trí duy nhất trong Page Object thay vì phải sửa thủ công ở hàng chục file test khác nhau.
+3.Tái sử dụng mã nguồn: Các hành động trên trang (như login, add to cart) được viết một lần và có thể sử dụng lại cho rất nhiều kịch bản kiểm thử khác nhau, giúp giảm thiểu code dư thừa.
+4.Cải thiện độ đọc hiểu: Mã nguồn kiểm thử trở nên gần gũi với nghiệp vụ thực tế (business steps), giúp những người không chuyên về code cũng có thể hiểu được kịch bản đang test gì.
+5.Tăng độ tin cậy: Nhờ kết hợp chặt chẽ với BasePage và Explicit Wait, kịch bản chạy ổn định hơn, loại bỏ hoàn toàn các lỗi "chờ đợi mù quáng" thường gặp ở cách viết truyền thống.

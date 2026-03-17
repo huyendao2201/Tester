@@ -1,6 +1,6 @@
 package com.hcmunre.tests;
 
-import com.hcmunre.common.BaseTest;
+import com.hcmunre.base.BaseTest;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 

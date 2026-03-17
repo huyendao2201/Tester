@@ -1,6 +1,6 @@
 package com.hcmunre.tests;
 
-import com.hcmunre.common.BaseTest;
+import com.hcmunre.base.BaseTest;
 import com.hcmunre.pages.InventoryPage;
 import com.hcmunre.pages.LoginPage;
 import com.hcmunre.utils.ExcelReader;
@@ -15,7 +15,7 @@ import java.lang.reflect.Method;
 public class LoginDataDrivenTest extends BaseTest {
 
     private String testName = "";
-    private final String excelPath = "src/test/resources/login_data.xlsx";
+    private final String excelPath = "src/test/resources/testdata/login_data.xlsx";
 
     @BeforeMethod
     public void setupTest(Method method, Object[] testData) {

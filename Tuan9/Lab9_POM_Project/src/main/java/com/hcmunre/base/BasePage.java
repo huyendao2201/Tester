@@ -1,4 +1,6 @@
-package com.hcmunre.pages;
+package com.hcmunre.base;
+
+import com.hcmunre.config.ConfigReader;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -15,7 +17,7 @@ public class BasePage {
 
     public BasePage(WebDriver driver) {
         this.driver = driver;
-        int timeout = com.hcmunre.utils.ConfigReader.getInstance().getIntProperty("explicit.wait");
+        int timeout = ConfigReader.getInstance().getIntProperty("explicit.wait");
         this.wait = new WebDriverWait(driver, Duration.ofSeconds(timeout));
         org.openqa.selenium.support.PageFactory.initElements(driver, this);
     }

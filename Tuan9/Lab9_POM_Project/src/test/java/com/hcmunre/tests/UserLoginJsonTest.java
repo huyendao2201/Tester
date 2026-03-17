@@ -1,6 +1,6 @@
 package com.hcmunre.tests;
 
-import com.hcmunre.common.BaseTest;
+import com.hcmunre.base.BaseTest;
 import com.hcmunre.models.UserData;
 import com.hcmunre.pages.InventoryPage;
 import com.hcmunre.pages.LoginPage;
@@ -16,7 +16,7 @@ import java.util.List;
 
 public class UserLoginJsonTest extends BaseTest {
     private String testName = "";
-    private final String jsonPath = "src/test/resources/users.json";
+    private final String jsonPath = "src/test/resources/testdata/users.json";
 
     @BeforeMethod
     public void setupTest(Method method, Object[] testData) {
