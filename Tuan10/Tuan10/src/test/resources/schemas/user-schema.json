@@ -1,0 +1,117 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Single User Response Schema",
+    "description": "Schema for GET /api/users/{id} - validates nested data + support + _meta structure",
+    "type": "object",
+    "required": [
+        "data",
+        "support",
+        "_meta"
+    ],
+    "additionalProperties": false,
+    "properties": {
+        "data": {
+            "type": "object",
+            "description": "Nested user object",
+            "required": [
+                "id",
+                "email",
+                "first_name",
+                "last_name",
+                "avatar"
+            ],
+            "additionalProperties": false,
+            "properties": {
+                "id": {
+                    "type": "integer"
+                },
+                "email": {
+                    "type": "string",
+                    "format": "email"
+                },
+                "first_name": {
+                    "type": "string",
+                    "minLength": 1
+                },
+                "last_name": {
+                    "type": "string",
+                    "minLength": 1
+                },
+                "avatar": {
+                    "type": "string",
+                    "format": "uri"
+                }
+            }
+        },
+        "support": {
+            "type": "object",
+            "required": [
+                "url",
+                "text"
+            ],
+            "additionalProperties": false,
+            "properties": {
+                "url": {
+                    "type": "string"
+                },
+                "text": {
+                    "type": "string"
+                }
+            }
+        },
+        "_meta": {
+            "type": "object",
+            "description": "reqres.in metadata object (added in new API version)",
+            "required": [
+                "powered_by",
+                "docs_url",
+                "upgrade_url",
+                "example_url",
+                "variant",
+                "message",
+                "cta",
+                "context"
+            ],
+            "additionalProperties": false,
+            "properties": {
+                "powered_by": {
+                    "type": "string"
+                },
+                "docs_url": {
+                    "type": "string"
+                },
+                "upgrade_url": {
+                    "type": "string"
+                },
+                "example_url": {
+                    "type": "string"
+                },
+                "variant": {
+                    "type": "string"
+                },
+                "message": {
+                    "type": "string"
+                },
+                "cta": {
+                    "type": "object",
+                    "required": [
+                        "label",
+                        "url"
+                    ],
+                    "additionalProperties": false,
+                    "properties": {
+                        "label": {
+                            "type": "string"
+                        },
+                        "url": {
+                            "type": "string"
+                        }
+                    }
+                },
+                "context": {
+                    "type": "string"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,51 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "[DEMO - STRICT] User List Schema - chỉ khai báo page, total_pages, data",
+    "description": "Schema CỐ Ý THIẾU các field 'per_page', 'total', 'support' so với response thực tế. Kết hợp additionalProperties:false → test FAIL để demo cơ chế phát hiện field bất ngờ",
+    "type": "object",
+    "required": [
+        "page",
+        "total_pages",
+        "data"
+    ],
+    "additionalProperties": false,
+    "properties": {
+        "page": {
+            "type": "integer"
+        },
+        "total_pages": {
+            "type": "integer"
+        },
+        "data": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "required": [
+                    "id",
+                    "email",
+                    "first_name",
+                    "last_name",
+                    "avatar"
+                ],
+                "additionalProperties": false,
+                "properties": {
+                    "id": {
+                        "type": "integer"
+                    },
+                    "email": {
+                        "type": "string"
+                    },
+                    "first_name": {
+                        "type": "string"
+                    },
+                    "last_name": {
+                        "type": "string"
+                    },
+                    "avatar": {
+                        "type": "string"
+                    }
+                }
+            }
+        }
+    }
+}
